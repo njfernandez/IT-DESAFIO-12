@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aquamarine;
+    font-family: 'Playfair Display', serif;
+}
+header{
+    width: 100%;
+    height: 600px;
+    background-image: url(imagenes/pexels-pok-rie-1432675.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.medio{
+    width: 100%;
+    height: 600px;
+    background-image: url(imagenes/pexels-jeshootscom-530024.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+nav{
+    width: 100%;
+    background-color: #ebeb83;
+    color: crimson;
+    position: fixed;
+    top: 0;
+}
+nav ul{
+    list-style: none;
+}
+nav li{
+    display: inline-block;
+    padding: 5px;
+}
+nav ul li a{
+    display: block;
+    padding: 15px;
+    color: coral;
+    text-decoration: none;
+}
+nav ul li:hover{
+    background-color: #f6f5f7;
+}
+section{
+    padding-top: 15px;
+    width: 95%;
+    margin-top: 40px;
+    text-align: justify;
+}
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: aquamarine;
+    color: coral;
+    text-align: center;
+    line-height: 50px;
+    letter-spacing: 2px;
+}
+.placa{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 100px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+h1{
+    font-size: 42px;
+    color: #fff;
+    margin: 20px auto;
+}
+.texto{
+    width: 100%;
+    height: 100px;
+    position: relative;
+    top: 100px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.otro{
+    font-size: 42px;
+    color: #fff;
+    margin: 40px auto;
+    text-shadow: 5px 5px 20px rgb(171, 39, 233);
+}
+.icon{
+    font-size: 2rem;
+    color: coral;
+    position: relative;
+}
+.img{
+    width: 3%;
+}
